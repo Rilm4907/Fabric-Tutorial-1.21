@@ -35,6 +35,9 @@ public class ModBlocks {
     public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block GLITTERING_WEIRD_RED_BLOCK = registerBlock("glittering_weird_red_block",
+            new Block(AbstractBlock.Settings.create().strength(0.6f)
+                    .sounds(BlockSoundGroup.PACKED_MUD)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

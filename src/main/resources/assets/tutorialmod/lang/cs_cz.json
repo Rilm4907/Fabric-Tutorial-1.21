@@ -1,12 +1,14 @@
 {
   "item.tutorialmod.pink_garnet": "Růžový granát",
   "item.tutorialmod.raw_pink_garnet": "Vytěžený růžový granát",
+  "item.tutorialmod.weird_red_blob": "Prapodivný rudý blob",
 
   "block.tutorialmod.pink_garnet_block": "Blok růžového granátu",
   "block.tutorialmod.raw_pink_garnet_block": "Blok vytěženého růžového granátu",
   "block.tutorialmod.pink_garnet_ore": "Růžová granátová ruda",
   "block.tutorialmod.pink_garnet_deepslate_ore": "Hlubinná růžová granátová ruda",
   "block.tutorialmod.weird_red_block": "Prapodivný rudý blok",
+  "block.tutorialmod.glittering_weird_red_block": "Třpitivý prapodivný rudý blok",
 
   "itemgroup.tutorialmod.pink_garnet_items": "Růžové granátové itemy",
   "itemgroup.tutorialmod.pink_garnet_blocks": "Růžové granátové bloky",

@@ -42,6 +42,8 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.tutorialmod.weird_red_things"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.WEIRD_RED_BLOCK);
+                        entries.add(ModBlocks.GLITTERING_WEIRD_RED_BLOCK);
+                        entries.add(ModItems.WEIRD_RED_BLOB);
 
                     })
                     .build());

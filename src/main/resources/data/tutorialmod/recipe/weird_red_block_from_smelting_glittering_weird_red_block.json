@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "group": "weird_red_block",
+  "ingredient": {
+    "item": "tutorialmod:glittering_weird_red_block"
+  },
+  "result": {
+    "id": "tutorialmod:weird_red_block"
+  }
+}
