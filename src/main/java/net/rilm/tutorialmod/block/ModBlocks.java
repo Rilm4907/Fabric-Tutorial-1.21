@@ -58,10 +58,6 @@ public class ModBlocks {
             entries.add(RAW_PINK_GARNET_BLOCK);
 
         });
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
-            entries.add(WEIRD_RED_BLOCK);
-        });
     }
 
 }
