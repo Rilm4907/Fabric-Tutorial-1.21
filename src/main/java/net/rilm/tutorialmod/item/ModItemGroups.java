@@ -45,7 +45,9 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.WEIRD_RED_BLOCK);
                         entries.add(ModBlocks.GLITTERING_WEIRD_RED_BLOCK);
+
                         entries.add(ModItems.WEIRD_RED_BLOB);
+                        entries.add(ModItems.WEIRD_RED_FERTILIZER);
 
                     })
                     .build());

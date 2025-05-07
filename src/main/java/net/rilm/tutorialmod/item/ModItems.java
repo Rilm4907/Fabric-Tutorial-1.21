@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.rilm.tutorialmod.TutorialMod;
 import net.rilm.tutorialmod.item.custom.ChiselItem;
+import net.rilm.tutorialmod.item.custom.ExtraBonemealItem;
 
 public class ModItems {
 
@@ -17,6 +18,8 @@ public class ModItems {
     public static final Item WEIRD_RED_BLOB = registerItem("weird_red_blob", new Item(new Item.Settings()));
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+
+    public static final Item WEIRD_RED_FERTILIZER = registerItem("weird_red_fertilizer", new ExtraBonemealItem(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
