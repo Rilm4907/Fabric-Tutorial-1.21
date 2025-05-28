@@ -21,6 +21,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_PINK_GARNET);
 
                         entries.add(ModItems.CHISEL);
+                        entries.add(ModItems.CAULIFLOWER);
+                        entries.add(ModItems.STARLIGHT_ASHES);
 
                     })
                     .build());
@@ -47,8 +49,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WEIRD_RED_BLOCK);
                         entries.add(ModBlocks.GLITTERING_WEIRD_RED_BLOCK);
 
+                        entries.add(ModBlocks.WEIRD_RED_TRADER_BLOCK);
+
                         entries.add(ModItems.WEIRD_RED_BLOB);
                         entries.add(ModItems.WEIRD_RED_FERTILIZER);
+                        entries.add(ModItems.WEIRD_RED_POTION);
 
                     })
                     .build());

@@ -21,7 +21,9 @@ public class TraderBlock extends Block {
         super(settings);
     }
 
-    private static final Item[] ITEM_ARRAY = {
+    private static final int value = 2;
+
+    private static final List<Item> ITEM_LIST = List.of(
             Items.DIRT,
             Items.COBBLESTONE,
             Items.COAL,
@@ -29,19 +31,19 @@ public class TraderBlock extends Block {
             Items.IRON_INGOT,
             Items.GOLD_INGOT,
             Items.EMERALD,
-            Items.DIAMOND};
+            Items.DIAMOND
+    );
 
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if (entity instanceof ItemEntity Itemy) {
             Item DanyItem = Itemy.getStack().getItem();
-            List<Item> ITEM_LIST = Arrays.asList(ITEM_ARRAY);
             if (ITEM_LIST.contains(DanyItem)) {
-                if (ITEM_LIST.indexOf(DanyItem) < ITEM_LIST.size() && Itemy.getStack().getCount() >= 10) {
+                if (DanyItem != ITEM_LIST.getLast() && Itemy.getStack().getCount() >= value) {
                     ItemStack originalStack = Itemy.getStack();
                     int originalCount = originalStack.getCount();
-                    int premenenych = (int)(originalCount / 10);
-                    int nepremenenych = originalCount % 10;
+                    int premenenych = (int)(originalCount / value);
+                    int nepremenenych = originalCount % value;
                     ItemStack odtrzenyStack = originalStack.split(originalCount - nepremenenych);
                     Itemy.setStack(originalStack);
                     BlockPos pos2 = Itemy.getBlockPos();
@@ -54,7 +56,7 @@ public class TraderBlock extends Block {
 
         }
 
-
         super.onSteppedOn(world, pos, state, entity);
     }
+
 }

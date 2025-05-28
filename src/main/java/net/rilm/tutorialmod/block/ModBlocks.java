@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.rilm.tutorialmod.TutorialMod;
 import net.rilm.tutorialmod.block.custom.MagicBlock;
+import net.rilm.tutorialmod.block.custom.TraderBlock;
 
 public class ModBlocks {
 
@@ -43,6 +44,10 @@ public class ModBlocks {
     public static final Block GLITTERING_WEIRD_RED_BLOCK = registerBlock("glittering_weird_red_block",
             new Block(AbstractBlock.Settings.create().strength(0.6f)
                     .sounds(BlockSoundGroup.PACKED_MUD)));
+
+    public static final Block WEIRD_RED_TRADER_BLOCK = registerBlock("weird_red_trader_block",
+            new TraderBlock(AbstractBlock.Settings.create().strength(5f)
+                    .sounds(BlockSoundGroup.BASALT)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

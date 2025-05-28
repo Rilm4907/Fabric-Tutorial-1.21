@@ -10,16 +10,23 @@ import net.minecraft.util.Identifier;
 import net.rilm.tutorialmod.TutorialMod;
 import net.rilm.tutorialmod.item.custom.ChiselItem;
 import net.rilm.tutorialmod.item.custom.ExtraBonemealItem;
+import net.rilm.tutorialmod.item.custom.WeirdRedPotionItem;
 
 public class ModItems {
 
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
-    public static final Item WEIRD_RED_BLOB = registerItem("weird_red_blob", new Item(new Item.Settings()));
+    public static final Item WEIRD_RED_BLOB = registerItem("weird_red_blob", new Item(new Item.Settings().food(ModFoodComponents.WEIRD_RED_BLOB)));
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
+    public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
+    public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes", new Item(new Item.Settings()));
+
     public static final Item WEIRD_RED_FERTILIZER = registerItem("weird_red_fertilizer", new ExtraBonemealItem(new Item.Settings()));
+
+    public static final Item WEIRD_RED_POTION = registerItem("weird_red_potion", new WeirdRedPotionItem(new Item.Settings().
+            food(ModFoodComponents.WEIRD_RED_POTION)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
