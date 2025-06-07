@@ -18,5 +18,13 @@
 
   "itemgroup.tutorialmod.pink_garnet_items": "Růžové granátové itemy",
   "itemgroup.tutorialmod.pink_garnet_blocks": "Růžové granátové bloky",
-  "itemgroup.tutorialmod.weird_red_things": "Prapodivné rudé věci"
+  "itemgroup.tutorialmod.weird_red_things": "Prapodivné rudé věci",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "Tento blok je velmi, velmi §9KOUZELNÝ§r",
+  "tooltip.tutorialmod.chisel.shift_down": "Tento item dlabá bloky a cihly!",
+  "tooltip.tutorialmod.chisel": "Stiskněte §eShift§r pro více informací",
+  "tooltip.tutorialmod.cauliflower.tooltip": "Tohle je výborné!",
+  "tooltip.tutorialmod.trader_block.alt_down.1": "§6Pokus o překlad:",
+  "tooltip.tutorialmod.trader_block.alt_down.2": "Toto je zdroj naší/našeho §kslayguys§r",
+  "tooltip.tutorialmod.trader_block": "UNeznámý jazyk, stiskněte §eAlt§r pro pokus o překlad"
 }

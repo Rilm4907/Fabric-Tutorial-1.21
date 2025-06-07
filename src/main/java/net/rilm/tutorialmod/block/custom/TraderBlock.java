@@ -2,11 +2,14 @@ package net.rilm.tutorialmod.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
+import net.minecraft.item.tooltip.TooltipType;
+import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
@@ -59,4 +62,15 @@ public class TraderBlock extends Block {
         super.onSteppedOn(world, pos, state, entity);
     }
 
+    @Override
+    public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+        if (Screen.hasAltDown()) {
+            tooltip.add(Text.translatable("tooltip.tutorialmod.trader_block.alt_down.1"));
+            tooltip.add(Text.translatable("tooltip.tutorialmod.trader_block.alt_down.2"));
+        } else {
+            tooltip.add(Text.translatable("tooltip.tutorialmod.trader_block"));
+        }
+
+        super.appendTooltip(stack, context, tooltip, options);
+    }
 }

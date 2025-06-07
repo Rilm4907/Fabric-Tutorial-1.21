@@ -19,5 +19,13 @@
 
   "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks",
-  "itemgroup.tutorialmod.weird_red_things": "Weird Red Things"
+  "itemgroup.tutorialmod.weird_red_things": "Weird Red Things",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This block is very, very §9MAGICAL§r",
+  "tooltip.tutorialmod.chisel.shift_down": "This item chisels blocks into Bricks!",
+  "tooltip.tutorialmod.chisel": "Press §eShift§r for more Information",
+  "tooltip.tutorialmod.cauliflower.tooltip": "This is delicious!",
+  "tooltip.tutorialmod.trader_block.alt_down.1": "§6Translation attempted:",
+  "tooltip.tutorialmod.trader_block.alt_down.2": "This is the source of our §kslayguys§r",
+  "tooltip.tutorialmod.trader_block": "Unknown language, press §eAlt§r to attempt Translation"
 }
