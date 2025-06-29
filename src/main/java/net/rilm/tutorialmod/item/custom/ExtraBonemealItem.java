@@ -1,6 +1,7 @@
 package net.rilm.tutorialmod.item.custom;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemUsageContext;
@@ -11,14 +12,15 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.rilm.tutorialmod.util.ModTags;
 
 import java.util.List;
 
 public class ExtraBonemealItem extends Item {
 
-    private static final List<Block> SUPER_BONEMEAL_LIST = List.of(
-            Blocks.SUGAR_CANE
-    );
+    private boolean IsValidBlock (BlockState clickedBlock) {
+        return clickedBlock.isIn(ModTags.Blocks.SUPERBONEMEALABLE_BLOCKS);
+    }
 
     public ExtraBonemealItem(Settings settings) {
         super(settings);
@@ -32,7 +34,7 @@ public class ExtraBonemealItem extends Item {
         BlockPos aboveBlockPos = new BlockPos(pos.getX(), pos.getY()+1, pos.getZ());
         if (!world.isClient()) {
             for (int x = 0; x <= 2; x++) {
-                if (SUPER_BONEMEAL_LIST.contains(clickedBlock)) {
+                if (IsValidBlock(world.getBlockState(pos))) {
                     if (aboveBlockPos.getY() == world.getTopY()) {
                         break;
                     } else if (world.getBlockState(aboveBlockPos).isAir()) {
