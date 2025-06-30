@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tutorialmod:weird_red_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "tutorialmod:weird_red_blob"
+  }
+}

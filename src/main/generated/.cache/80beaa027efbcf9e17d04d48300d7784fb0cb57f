@@ -1,0 +1,5 @@
+// 1.21	2025-06-30T16:30:33.4020462	Tutorial Mod/Tags for minecraft:block
+7cd62827b6fefd57a9b8b3e08ca06fc4fcba9187 data\minecraft\tags\block\mineable\hoe.json
+fa8f08652df6ea86054f0d51dedc217c9e46db23 data\minecraft\tags\block\mineable\pickaxe.json
+ac6fa62194c297ca8ced8ce856ab992f3fdecb82 data\minecraft\tags\block\needs_iron_tool.json
+f02fc9781e8f0ae33ed3b98cf4f46ba6927c7ff8 data\tutorialmod\tags\block\superbonemealable_blocks.json

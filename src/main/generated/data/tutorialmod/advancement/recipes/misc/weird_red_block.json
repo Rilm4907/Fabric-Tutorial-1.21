@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:weird_red_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_weird_red_blob": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:weird_red_blob"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_weird_red_blob"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:weird_red_block"
+    ]
+  }
+}

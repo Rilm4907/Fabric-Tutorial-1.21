@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "W": {
+      "item": "tutorialmod:weird_red_blob"
+    }
+  },
+  "pattern": [
+    "RW",
+    "WR"
+  ],
+  "result": {
+    "count": 4,
+    "id": "tutorialmod:glittering_weird_red_block"
+  }
+}

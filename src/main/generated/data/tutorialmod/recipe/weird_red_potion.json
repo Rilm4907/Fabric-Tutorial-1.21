@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "tutorialmod:weird_red_blob"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RWR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:weird_red_potion"
+  }
+}
