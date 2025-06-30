@@ -47,7 +47,7 @@ public class ModBlocks {
 
     public static final Block WEIRD_RED_TRADER_BLOCK = registerBlock("weird_red_trader_block",
             new TraderBlock(AbstractBlock.Settings.create().strength(5f)
-                    .sounds(BlockSoundGroup.BASALT)));
+                    .sounds(BlockSoundGroup.BASALT).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
