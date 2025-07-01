@@ -17,6 +17,19 @@
   "block.tutorialmod.glittering_weird_red_block": "Glittering Weird Red Block",
   "block.tutorialmod.weird_red_trader_block": "Weird Red Trader Block",
 
+  "block.tutorialmod.pink_garnet_stairs": "Pink Garnet Stairs",
+  "block.tutorialmod.pink_garnet_slab": "Pink Garnet Slab",
+
+  "block.tutorialmod.pink_garnet_button": "Pink Garnet Button",
+  "block.tutorialmod.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+
+  "block.tutorialmod.pink_garnet_fence": "Pink Garnet Fence",
+  "block.tutorialmod.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
+  "block.tutorialmod.pink_garnet_wall": "Pink Garnet Wall",
+
+  "block.tutorialmod.pink_garnet_door": "Pink Garnet Door",
+  "block.tutorialmod.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
+
   "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks",
   "itemgroup.tutorialmod.weird_red_things": "Weird Red Things",
@@ -28,4 +41,6 @@
   "tooltip.tutorialmod.trader_block.alt_down.1": "§6Translation attempted:",
   "tooltip.tutorialmod.trader_block.alt_down.2": "This is the source of our §kslayguys§r",
   "tooltip.tutorialmod.trader_block": "Unknown language, press §eAlt§r to attempt Translation"
+
+
 }

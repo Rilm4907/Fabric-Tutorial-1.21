@@ -16,6 +16,19 @@
   "block.tutorialmod.glittering_weird_red_block": "Třpitivý prapodivný rudý blok",
   "block.tutorialmod.weird_red_trader_block": "Prapodivný rudý obchod",
 
+  "block.tutorialmod.pink_garnet_stairs": "Schody z růžového granátu",
+  "block.tutorialmod.pink_garnet_slab": "Půlblok z růžového granátu",
+
+  "block.tutorialmod.pink_garnet_button": "Čudlík z růžového granátu",
+  "block.tutorialmod.pink_garnet_pressure_plate": "Nášlapová deska z růžového granátu",
+
+  "block.tutorialmod.pink_garnet_fence": "Plot z růžového granátu",
+  "block.tutorialmod.pink_garnet_fence_gate": "Branka z růžového granátu",
+  "block.tutorialmod.pink_garnet_wall": "Zídka z růžového granátu",
+
+  "block.tutorialmod.pink_garnet_door": "Dveře z růžového granátu",
+  "block.tutorialmod.pink_garnet_trapdoor": "Poklop z růžového granátu",
+
   "itemgroup.tutorialmod.pink_garnet_items": "Růžové granátové itemy",
   "itemgroup.tutorialmod.pink_garnet_blocks": "Růžové granátové bloky",
   "itemgroup.tutorialmod.weird_red_things": "Prapodivné rudé věci",
