@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.rilm.tutorialmod.TutorialMod;
 import net.rilm.tutorialmod.block.custom.MagicBlock;
+import net.rilm.tutorialmod.block.custom.PinkGarnetLampBlock;
 import net.rilm.tutorialmod.block.custom.TraderBlock;
 
 public class ModBlocks {
@@ -71,6 +72,10 @@ public static final Block PINK_GARNET_DOOR = registerBlock("pink_garnet_door",
             new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
     public static final Block PINK_GARNET_TRAPDOOR = registerBlock("pink_garnet_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+
+    public static final Block PINK_GARNET_LAMP = registerBlock("pink_garnet_lamp",
+            new PinkGarnetLampBlock(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.GLASS).strength(1f).luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
