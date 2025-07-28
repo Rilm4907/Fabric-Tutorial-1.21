@@ -1,6 +1,6 @@
-// 1.21	2025-07-25T10:24:06.449028	Tutorial Mod/Tags for minecraft:block
-fd1947f6f84ca8fb43b84171e009dfcfdac85133 data\tutorialmod\tags\block\needs_pink_garnet_tool.json
+// 1.21	2025-07-28T12:48:17.3623327	Tutorial Mod/Tags for minecraft:block
 f30a6367dbc22bbef01d6bf2a992f645005f83b5 data\minecraft\tags\block\needs_diamond_tool.json
+fd1947f6f84ca8fb43b84171e009dfcfdac85133 data\tutorialmod\tags\block\needs_pink_garnet_tool.json
 7cd62827b6fefd57a9b8b3e08ca06fc4fcba9187 data\minecraft\tags\block\mineable\hoe.json
 8159fdbcb7619cbd57674525489b6dfed8a407fd data\minecraft\tags\block\fence_gates.json
 fa8f08652df6ea86054f0d51dedc217c9e46db23 data\minecraft\tags\block\mineable\pickaxe.json

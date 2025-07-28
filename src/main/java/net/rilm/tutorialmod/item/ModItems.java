@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 import net.rilm.tutorialmod.TutorialMod;
 import net.rilm.tutorialmod.item.custom.ChiselItem;
 import net.rilm.tutorialmod.item.custom.ExtraBonemealItem;
+import net.rilm.tutorialmod.item.custom.HammerItem;
 import net.rilm.tutorialmod.item.custom.WeirdRedPotionItem;
 
 import java.util.List;
@@ -51,6 +52,10 @@ public class ModItems {
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 0, -3f))));
     public static final Item WEIRD_RED_POTION = registerItem("weird_red_potion", new WeirdRedPotionItem(new Item.Settings().
             food(ModFoodComponents.WEIRD_RED_POTION)));
+
+    public static final Item PINK_GARNET_HAMMER = registerItem("pink_garnet_hammer",
+            new HammerItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 7, -3.4f))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
