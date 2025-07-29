@@ -3,6 +3,7 @@ package net.rilm.tutorialmod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 import net.rilm.tutorialmod.block.ModBlocks;
 import net.rilm.tutorialmod.block.custom.PinkGarnetLampBlock;
@@ -59,7 +60,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PINK_GARNET_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PINK_GARNET_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PINK_GARNET_HOE, Models.HANDHELD);
+
         itemModelGenerator.register(ModItems.PINK_GARNET_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GARNET_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GARNET_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GARNET_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GARNET_BOOTS));
 
         itemModelGenerator.register(ModItems.WEIRD_RED_BLOB, Models.GENERATED);
         itemModelGenerator.register(ModItems.WEIRD_RED_FERTILIZER, Models.GENERATED);

@@ -99,6 +99,33 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
                 .offerTo(recipeExporter, "pink_garnet_hoe_rotated");
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.PINK_GARNET_HELMET)
+                .pattern("PPP")
+                .pattern("P P")
+                .input('P', ModItems.PINK_GARNET)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.PINK_GARNET_CHESTPLATE)
+                .pattern("P P")
+                .pattern("PPP")
+                .pattern("PPP")
+                .input('P', ModItems.PINK_GARNET)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.PINK_GARNET_LEGGINGS)
+                .pattern("PPP")
+                .pattern("P P")
+                .pattern("P P")
+                .input('P', ModItems.PINK_GARNET)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.PINK_GARNET_BOOTS)
+                .pattern("P P")
+                .pattern("P P")
+                .input('P', ModItems.PINK_GARNET)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(recipeExporter);
+
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET, 9)
                 .input(ModBlocks.RAW_PINK_GARNET_BLOCK)
