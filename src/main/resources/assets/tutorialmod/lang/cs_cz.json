@@ -22,6 +22,7 @@
   "item.tutorialmod.pink_garnet_boots": "Boty z růžového granátu",
 
   "item.tutorialmod.pink_garnet_horse_armor": "Zbroj pro koně z růžového granátu",
+  "item.tutorialmod.kaupen_armor_trim_smithing_template": "Kovářská předloha",
 
   "block.tutorialmod.pink_garnet_block": "Blok růžového granátu",
   "block.tutorialmod.raw_pink_garnet_block": "Blok vytěženého růžového granátu",
@@ -57,5 +58,8 @@
   "tooltip.tutorialmod.cauliflower.tooltip": "Tohle je výborné!",
   "tooltip.tutorialmod.trader_block.alt_down.1": "§6Pokus o překlad:",
   "tooltip.tutorialmod.trader_block.alt_down.2": "Toto je zdroj naší/našeho §kslayguys§r",
-  "tooltip.tutorialmod.trader_block": "UNeznámý jazyk, stiskněte §eAlt§r pro pokus o překlad"
+  "tooltip.tutorialmod.trader_block": "UNeznámý jazyk, stiskněte §eAlt§r pro pokus o překlad",
+
+  "trim_material.tutorialmod.pink_garnet": "Materiál růžového granátu",
+  "trim_pattern.tutorialmod.kaupen": "Ornament Kaupenův"
 }
