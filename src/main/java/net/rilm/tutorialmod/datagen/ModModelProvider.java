@@ -1,5 +1,6 @@
 package net.rilm.tutorialmod.datagen;
 
+import com.ibm.icu.text.Normalizer2;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
@@ -70,6 +71,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.PINK_GARNET_HORSE_ARMOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.KAUPEN_SMITHING_TEMPLATE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.BAR_BRAWL_MUSIC_DISC, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.WEIRD_RED_BLOB, Models.GENERATED);
         itemModelGenerator.register(ModItems.WEIRD_RED_FERTILIZER, Models.GENERATED);

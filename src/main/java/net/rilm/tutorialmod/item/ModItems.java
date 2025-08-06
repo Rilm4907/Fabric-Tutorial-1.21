@@ -12,6 +12,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.rilm.tutorialmod.TutorialMod;
 import net.rilm.tutorialmod.item.custom.*;
+import net.rilm.tutorialmod.sound.ModSounds;
 
 import java.util.List;
 
@@ -77,6 +78,9 @@ public class ModItems {
 
     public static final Item KAUPEN_BOW = registerItem("kaupen_bow",
             new BowItem(new Item.Settings().maxDamage(500)));
+
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY). maxCount(1)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);

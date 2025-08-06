@@ -22,7 +22,12 @@
   "item.tutorialmod.pink_garnet_boots": "Boty z růžového granátu",
 
   "item.tutorialmod.pink_garnet_horse_armor": "Zbroj pro koně z růžového granátu",
-  "item.tutorialmod.kaupen_armor_trim_smithing_template": "Kovářská předloha",
+  "item.tutorialmod.kaupen_armor_trim_smithing_template": "Kaupenova kovářská předloha",
+
+  "item.tutorialmod.kaupen_bow": "Kaupenův luk",
+
+  "item.tutorialmod.bar_brawl_music_disc": "Bar Brawl gramofonová deska",
+  "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
   "block.tutorialmod.pink_garnet_block": "Blok růžového granátu",
   "block.tutorialmod.raw_pink_garnet_block": "Blok vytěženého růžového granátu",
