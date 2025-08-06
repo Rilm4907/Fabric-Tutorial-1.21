@@ -63,7 +63,14 @@
   "tooltip.tutorialmod.trader_block": "Unknown language, press §eAlt§r to attempt Translation",
 
   "trim_material.tutorialmod.pink_garnet": "Pink Garnet Material",
-  "trim_pattern.tutorialmod.kaupen": "Kaupen Armor Pattern"
+  "trim_pattern.tutorialmod.kaupen": "Kaupen Armor Pattern",
+
+  "sounds.tutorialmod.chisel_use": "Chisel Use",
+  "sounds.tutorialmod.magic_block_break": "Magic Block Break",
+  "sounds.tutorialmod.magic_block_step": "Magic Block Step",
+  "sounds.tutorialmod.magic_block_place": "Magic Block Place",
+  "sounds.tutorialmod.magic_block_hit": "Magic Block Hit",
+  "sounds.tutorialmod.magic_block_fall": "Magic Block Fall"
 
 
 }

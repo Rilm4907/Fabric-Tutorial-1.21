@@ -61,5 +61,12 @@
   "tooltip.tutorialmod.trader_block": "UNeznámý jazyk, stiskněte §eAlt§r pro pokus o překlad",
 
   "trim_material.tutorialmod.pink_garnet": "Materiál růžového granátu",
-  "trim_pattern.tutorialmod.kaupen": "Ornament Kaupenův"
+  "trim_pattern.tutorialmod.kaupen": "Ornament Kaupenův",
+
+  "sounds.tutorialmod.chisel_use": "dláto použito",
+  "sounds.tutorialmod.magic_block_break": "kouzelný blok zničen",
+  "sounds.tutorialmod.magic_block_step": "chůže po kouzelném bloku",
+  "sounds.tutorialmod.magic_block_place": "kouzelný blok položen",
+  "sounds.tutorialmod.magic_block_hit": "ničení kouzelný blok",
+  "sounds.tutorialmod.magic_block_fall": "spadnutí na kouzelný blok"
 }

@@ -14,6 +14,7 @@ import net.rilm.tutorialmod.TutorialMod;
 import net.rilm.tutorialmod.block.custom.MagicBlock;
 import net.rilm.tutorialmod.block.custom.PinkGarnetLampBlock;
 import net.rilm.tutorialmod.block.custom.TraderBlock;
+import net.rilm.tutorialmod.sound.ModSounds;
 
 public class ModBlocks {
 
@@ -38,7 +39,7 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
-            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     public static final Block GLITTERING_WEIRD_RED_BLOCK = registerBlock("glittering_weird_red_block",
             new Block(AbstractBlock.Settings.create().strength(0.6f)
@@ -88,7 +89,7 @@ public static final Block PINK_GARNET_DOOR = registerBlock("pink_garnet_door",
     }
 
     public static void registerModBlocks() {
-        TutorialMod.LOGGER.info("Registering Mods Blocks fo " + TutorialMod.MOD_ID);
+        TutorialMod.LOGGER.info("Registering Mods Blocks for " + TutorialMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
 

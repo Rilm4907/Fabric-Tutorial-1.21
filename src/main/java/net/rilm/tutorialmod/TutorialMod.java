@@ -19,6 +19,7 @@ import net.rilm.tutorialmod.block.ModBlocks;
 import net.rilm.tutorialmod.component.ModDataComponentTypes;
 import net.rilm.tutorialmod.item.ModItemGroups;
 import net.rilm.tutorialmod.item.ModItems;
+import net.rilm.tutorialmod.sound.ModSounds;
 import net.rilm.tutorialmod.util.HammerUsageEvent;
 import net.rilm.tutorialmod.util.ModTags;
 import org.slf4j.Logger;
@@ -37,6 +38,7 @@ public class TutorialMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModDataComponentTypes.registerDataComponents();
+		ModSounds.registerSounds();
 
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 
@@ -52,6 +54,7 @@ public class TutorialMod implements ModInitializer {
 					sheepEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20, 255));
 				}
 
+				return ActionResult.PASS;
 				
 			}
 
