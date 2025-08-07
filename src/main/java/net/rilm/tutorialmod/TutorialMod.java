@@ -17,6 +17,7 @@ import net.minecraft.util.DyeColor;
 import net.minecraft.world.GameMode;
 import net.rilm.tutorialmod.block.ModBlocks;
 import net.rilm.tutorialmod.component.ModDataComponentTypes;
+import net.rilm.tutorialmod.effect.ModEffects;
 import net.rilm.tutorialmod.item.ModItemGroups;
 import net.rilm.tutorialmod.item.ModItems;
 import net.rilm.tutorialmod.sound.ModSounds;
@@ -39,6 +40,8 @@ public class TutorialMod implements ModInitializer {
 
 		ModDataComponentTypes.registerDataComponents();
 		ModSounds.registerSounds();
+
+		ModEffects.registerEffects();
 
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 
