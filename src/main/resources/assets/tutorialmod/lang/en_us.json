@@ -29,6 +29,10 @@
   "item.tutorialmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
+  "item.minecraft.potion.effect.slimey": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey": "Slimey Lingering Potion",
+
   "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
   "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
@@ -54,6 +58,15 @@
   "block.tutorialmod.pink_garnet_lamp": "Pink Garnet Lamp",
 
   "effect.tutorialmod.slimey": "Slimey",
+
+  "painting.tutorialmod.world.title": "World",
+  "painting.tutorialmod.world.author": "NanoAttack",
+  "painting.tutorialmod.shrimp.title": "Shrimp",
+  "painting.tutorialmod.shrimp.author": "NanoAttack",
+  "painting.tutorialmod.saw_them.title": "Saw Them",
+  "painting.tutorialmod.saw_them.author": "NanoAttack",
+  "painting.tutorialmod.shrimp_jesus.title": "Shrimp Jesus",
+  "painting.tutorialmod.shrimp_jesus.author": "ChatGPT",
 
   "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks",
