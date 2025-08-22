@@ -20,6 +20,8 @@ import net.minecraft.world.GameMode;
 import net.rilm.tutorialmod.block.ModBlocks;
 import net.rilm.tutorialmod.component.ModDataComponentTypes;
 import net.rilm.tutorialmod.effect.ModEffects;
+import net.rilm.tutorialmod.enchantment.ModEnchantmentEffects;
+import net.rilm.tutorialmod.enchantment.ModEnchantments;
 import net.rilm.tutorialmod.item.ModItemGroups;
 import net.rilm.tutorialmod.item.ModItems;
 import net.rilm.tutorialmod.potion.ModPotions;
@@ -46,6 +48,8 @@ public class TutorialMod implements ModInitializer {
 
 		ModEffects.registerEffects();
 		ModPotions.registerPotions();
+
+		ModEnchantmentEffects.registerEnchantmentEffects();
 
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 
