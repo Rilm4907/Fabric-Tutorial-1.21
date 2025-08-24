@@ -29,6 +29,8 @@
   "item.tutorialmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
+  "item.tutorialmod.cauliflower_seeds": "Cauliflower Seeds",
+
   "item.minecraft.potion.effect.slimey": "Slimey Potion",
   "item.minecraft.splash_potion.effect.slimey": "Slimey Splash Potion",
   "item.minecraft.lingering_potion.effect.slimey": "Slimey Lingering Potion",
@@ -56,6 +58,8 @@
   "block.tutorialmod.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
 
   "block.tutorialmod.pink_garnet_lamp": "Pink Garnet Lamp",
+
+  "block.tutorialmod.cauliflower_crop": "Cauliflower Crop",
 
   "effect.tutorialmod.slimey": "Slimey",
 

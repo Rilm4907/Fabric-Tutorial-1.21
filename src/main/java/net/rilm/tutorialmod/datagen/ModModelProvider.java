@@ -7,6 +7,7 @@ import net.minecraft.data.client.*;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 import net.rilm.tutorialmod.block.ModBlocks;
+import net.rilm.tutorialmod.block.custom.CauliflowerCropBlock;
 import net.rilm.tutorialmod.block.custom.PinkGarnetLampBlock;
 import net.rilm.tutorialmod.item.ModItems;
 
@@ -41,6 +42,8 @@ public class ModModelProvider extends FabricModelProvider {
         Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.PINK_GARNET_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.PINK_GARNET_LAMP)
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(PinkGarnetLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
+
+        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLITTERING_WEIRD_RED_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WEIRD_RED_BLOCK);

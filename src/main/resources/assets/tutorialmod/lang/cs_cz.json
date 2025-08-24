@@ -29,6 +29,8 @@
   "item.tutorialmod.bar_brawl_music_disc": "Bar Brawl gramofonová deska",
   "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
+  "item.tutorialmod.cauliflower_seeds": "Květáková semínka",
+
   "item.minecraft.potion.effect.slimey": "Lektvar lepení",
   "item.minecraft.splash_potion.effect.slimey": "Vrhací lektvar lepení",
   "item.minecraft.lingering_potion.effect.slimey": "Doznívající lektvar lepení",
@@ -56,6 +58,8 @@
   "block.tutorialmod.pink_garnet_trapdoor": "Poklop z růžového granátu",
 
   "block.tutorialmod.pink_garnet_lamp": "Lampa z růžového granátu",
+
+  "block.tutorialmod.cauliflower_crop": "Květáková rostlina",
 
   "effect.tutorialmod.slimey": "Lepivý",
 
